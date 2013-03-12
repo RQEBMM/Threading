@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC4E89316EFF03100202979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4E89216EFF03100202979 /* Foundation.framework */; };
+		FCC4E89616EFF03100202979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4E89516EFF03100202979 /* main.m */; };
+		FCC4E89A16EFF03100202979 /* Threading.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCC4E89916EFF03100202979 /* Threading.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCC4E88C16EFF03100202979 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FCC4E89A16EFF03100202979 /* Threading.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FCC4E88E16EFF03100202979 /* Threading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Threading; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC4E89216EFF03100202979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCC4E89516EFF03100202979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC4E89816EFF03100202979 /* Threading-Prefix.pch */ = {isa = PBXFileReference; path = "Threading-Prefix.pch"; sourceTree = "<group>"; };
+		FCC4E89916EFF03100202979 /* Threading.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Threading.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC4E88B16EFF03100202979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC4E89316EFF03100202979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC4E88316EFF03100202979 = {
+			isa = PBXGroup;
+			children = (
+				FCC4E89416EFF03100202979 /* Threading */,
+				FCC4E89116EFF03100202979 /* Frameworks */,
+				FCC4E88F16EFF03100202979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC4E88F16EFF03100202979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4E88E16EFF03100202979 /* Threading */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC4E89116EFF03100202979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4E89216EFF03100202979 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCC4E89416EFF03100202979 /* Threading */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4E89516EFF03100202979 /* main.m */,
+				FCC4E89916EFF03100202979 /* Threading.1 */,
+				FCC4E89716EFF03100202979 /* Supporting Files */,
+			);
+			path = Threading;
+			sourceTree = "<group>";
+		};
+		FCC4E89716EFF03100202979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4E89816EFF03100202979 /* Threading-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC4E88D16EFF03100202979 /* Threading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC4E89D16EFF03100202979 /* Build configuration list for PBXNativeTarget "Threading" */;
+			buildPhases = (
+				FCC4E88A16EFF03100202979 /* Sources */,
+				FCC4E88B16EFF03100202979 /* Frameworks */,
+				FCC4E88C16EFF03100202979 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Threading;
+			productName = Threading;
+			productReference = FCC4E88E16EFF03100202979 /* Threading */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC4E88516EFF03100202979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FCC4E88816EFF03100202979 /* Build configuration list for PBXProject "Threading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCC4E88316EFF03100202979;
+			productRefGroup = FCC4E88F16EFF03100202979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC4E88D16EFF03100202979 /* Threading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC4E88A16EFF03100202979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC4E89616EFF03100202979 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FCC4E89B16EFF03100202979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCC4E89C16EFF03100202979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCC4E89E16EFF03100202979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Threading/Threading-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCC4E89F16EFF03100202979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Threading/Threading-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC4E88816EFF03100202979 /* Build configuration list for PBXProject "Threading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC4E89B16EFF03100202979 /* Debug */,
+				FCC4E89C16EFF03100202979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC4E89D16EFF03100202979 /* Build configuration list for PBXNativeTarget "Threading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC4E89E16EFF03100202979 /* Debug */,
+				FCC4E89F16EFF03100202979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC4E88516EFF03100202979 /* Project object */;
+}
