@@ -10,6 +10,8 @@
 		FCC4E89316EFF03100202979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4E89216EFF03100202979 /* Foundation.framework */; };
 		FCC4E89616EFF03100202979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4E89516EFF03100202979 /* main.m */; };
 		FCC4E89A16EFF03100202979 /* Threading.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCC4E89916EFF03100202979 /* Threading.1 */; };
+		FCC4E8A216EFF0B000202979 /* ThreadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4E8A116EFF0B000202979 /* ThreadOperation.m */; };
+		FCC4E8AB16F0277700202979 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4E8AA16F0277700202979 /* Observer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +31,12 @@
 		FCC4E88E16EFF03100202979 /* Threading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Threading; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC4E89216EFF03100202979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCC4E89516EFF03100202979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FCC4E89816EFF03100202979 /* Threading-Prefix.pch */ = {isa = PBXFileReference; path = "Threading-Prefix.pch"; sourceTree = "<group>"; };
+		FCC4E89816EFF03100202979 /* Threading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Threading-Prefix.pch"; sourceTree = "<group>"; };
 		FCC4E89916EFF03100202979 /* Threading.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Threading.1; sourceTree = "<group>"; };
+		FCC4E8A016EFF0B000202979 /* ThreadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadOperation.h; sourceTree = "<group>"; };
+		FCC4E8A116EFF0B000202979 /* ThreadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadOperation.m; sourceTree = "<group>"; };
+		FCC4E8A916F0277700202979 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		FCC4E8AA16F0277700202979 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				FCC4E89516EFF03100202979 /* main.m */,
+				FCC4E8A016EFF0B000202979 /* ThreadOperation.h */,
+				FCC4E8A116EFF0B000202979 /* ThreadOperation.m */,
+				FCC4E8A916F0277700202979 /* Observer.h */,
+				FCC4E8AA16F0277700202979 /* Observer.m */,
 				FCC4E89916EFF03100202979 /* Threading.1 */,
 				FCC4E89716EFF03100202979 /* Supporting Files */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC4E89616EFF03100202979 /* main.m in Sources */,
+				FCC4E8A216EFF0B000202979 /* ThreadOperation.m in Sources */,
+				FCC4E8AB16F0277700202979 /* Observer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
