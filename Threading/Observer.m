@@ -11,9 +11,8 @@
 
 @implementation Observer
 
-//callback is called from the threads in order to init and add to queue from the main thread
-//this sidesteps worrying about locking since the only action happening outside the main thread
-//is printing to the console, incrementing the counter, and calling this method
+//callback is called from the threads in order to init and add to queue from the calling thread
+//this keeps all action in the active thread
 -(void)callbackFor:(ThreadOperation *)operation
 {
         if (operation.count <= 1000)
